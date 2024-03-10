@@ -1,0 +1,38 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Ajusta el color de fondo según tus preferencias */
+}
+
+#container {
+  display: flex;
+}
+
+#map {
+  width: 50%; /* Ajusta el ancho del mapa según tus preferencias */
+  height: 100vh; /* Ajusta la altura del mapa según tus preferencias */
+}
+
+#content {
+  width: 50%; /* Ajusta el ancho del contenido según tus preferencias */
+  padding: 20px;
+}
+
+.empresa-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.empresa-container img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
