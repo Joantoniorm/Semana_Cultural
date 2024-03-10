@@ -1,0 +1,25 @@
+#contenedor{
+  display: flex;
+  flex-direction: row;
+}
+#map {
+  width: 50vh; /* Ajusta el ancho del mapa según tus preferencias */
+  height: 50vh; /* Ajusta la altura del mapa según tus preferencias */
+}
+#map-container{
+  padding-top: 30px;
+  display: flex;
+  width: 40%;
+  justify-content: center;
+}
+#detalles-container{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#detalles-container img{
+  width: 50%;
+  height: 70%;
+}
