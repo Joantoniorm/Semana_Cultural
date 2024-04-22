@@ -1,13 +1,13 @@
-<div id="container">
+
   <div id="map-container">
-    <div id="map" style="width: 50vh; height: 50vh"></div>
+    <div id="map" ></div>
   </div>
   <div id="empresa-container">
     <div *ngFor="let empresa of empresas" class="empresa">
-      <img src="{{ empresa.imagen_url }}" alt="" class="img-fluid mb-2"
-           style="max-width: 300px; max-height: 300px;">
-      <strong>{{ empresa.nombre }}</strong>
+      <img src="{{ empresa.imagen_url }}" alt="">
+      <a href="/details/{{ empresa.idEmpresa }}"> <strong>{{ empresa.nombre }}</strong></a>
+
     </div>
   </div>
-</div>
+
 

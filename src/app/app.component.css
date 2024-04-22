@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+nav a:hover {
+  border-bottom: none;
+  color: white; /* Esto asegura que el color no cambie al pasar el ratón sobre el enlace */
+}
+
+div[style="width: 100%; height: 50em"] {
+  /* Agrega estilos adicionales según sea necesario */
+}

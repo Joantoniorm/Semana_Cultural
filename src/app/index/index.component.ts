@@ -35,7 +35,7 @@ export class IndexComponent implements OnInit{
   }
   ngAfterViewInit() {
     setTimeout(() => {
-      this.mapa = new L.Map('map').setView([36.736699, -4.553068], 14);
+      this.mapa = new L.Map('map').setView([36.736699, -4.553068], 12);
 
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 18,
